@@ -1,0 +1,35 @@
+const fs = require('fs');
+
+// Función para minar
+const minar = (userId, limite) => {
+  // Leer datos de usuario (puedes usar una base de datos o un archivo JSON)
+  const archivo = './data/usuarios.json';
+  let usuarios = {};
+  
+  if (fs.existsSync(archivo)) {
+    usuarios = JSON.parse(fs.readFileSync(archivo));
+  }
+  
+  // Verificar si el usuario existe
+  if (!usuarios[userId]) {
+    usuarios[userId] = { experiencia: 0, limite: limite };  // Inicializa el usuario
+  }
+
+  // Verificar si ha alcanzado el límite
+  if (usuarios[userId].experiencia >= usuarios[userId].limite) {
+    return `¡Ya has alcanzado el límite de minería hoy!`;
+  }
+
+  // Lógica para minar (aumentar la experiencia, etc.)
+  usuarios[userId].experiencia += Math.floor(Math.random() * 10) + 1;  // Aumenta entre 1 y 10 experiencia
+  if (usuarios[userId].experiencia > usuarios[userId].limite) {
+    usuarios[userId].experiencia = usuarios[userId].limite;  // Asegura que no sobrepase el límite
+  }
+
+  // Guardar los datos
+  fs.writeFileSync(archivo, JSON.stringify(usuarios));
+
+  return `¡Has minado y ahora tienes ${usuarios[userId].experiencia} puntos de experiencia!`;
+};
+
+module.exports = { minar };

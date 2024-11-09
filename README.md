@@ -4,7 +4,7 @@
 
 
 
-https://i.postimg.cc/VkG8PN5j/rick-sanchez.jpg
+
 
 
 

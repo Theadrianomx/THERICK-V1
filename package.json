@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Base creada desde cero y está actualizada hasta la fecha.",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@open-wa/wa-automate": "^4.74.0",

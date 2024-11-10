@@ -46,11 +46,11 @@ Clona el repositorio en tu máquina local con el siguiente comando:
 
 Mgit clone https://github.com/Theadrianomx/v1-RICK-.git
 
-Mcd THERICK-V1
+cd THERICK-V1
 
-mnpm install
+npm install
 
-Mnode index
+node index
 
 
 con esto el bot deveria de estar funcionando sin problemas🕥

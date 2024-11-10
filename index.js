@@ -11,6 +11,22 @@ const { handleGroupParticipantsUpdate } = require('./eventHandler');  // Importa
 const { minar } = require('./comandos/interaccion/minar'); // Ruta donde guardaste el archivo minar.js
 const fs = require('fs'); // Para leer y escribir el archivo JSON
 const path = './data/usuarios.json'; // Ruta del archivo de usuarios
+let usuarios = {};
+if (fs.existsSync(path)) {
+    try {
+        usuarios = JSON.parse(fs.readFileSync(path, 'utf8'));
+    } catch (error) {
+        console.error('Error al leer usuarios.json:', error);
+        usuarios = {};
+    }
+} else {
+    console.warn(`Archivo usuarios.json no encontrado en ${path}, se usará un objeto vacío.`);
+}
+
+
+
+
+
 
 const pino = require('pino')
 let phoneNumber = "19016500693"; // cambiar número

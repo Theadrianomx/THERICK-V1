@@ -45,8 +45,11 @@ instalación solo por termux ☃️
 Clona el repositorio en tu máquina local con el siguiente comando:
 
 git clone https://github.com/Theadrianomx/v1-RICK-.git
+
 cd THERICK-V1
+
 npm install
+
 node index
 
 

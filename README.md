@@ -46,7 +46,7 @@ Clona el repositorio en tu máquina local con el siguiente comando:
 
 
  ``` 
-https://github.com/Theadrianomx/v1-RICK-.git
+git clone https://github.com/Theadrianomx/v1-RICK-.git
 
 ```
 

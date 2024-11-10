@@ -10,7 +10,7 @@ const cfonts = require('cfonts');
 const { handleGroupParticipantsUpdate } = require('./eventHandler');  // Importa el controlador de eventos;
 const { minar } = require('./comandos/interaccion/minar'); // Ruta donde guardaste el archivo minar.js
 const { robar } = require('./comandos/interaccion/robar');
-const { createCanvas, loadImage } = require('canvas'); // Para crear la imagen
+//const { createCanvas, loadImage } = require('canvas'); // Para crear la imagen
 const fs = require('fs');
 const path = './data/usuarios.json'; 
 let usuarios = {};
@@ -309,7 +309,7 @@ const deviceType = info.key.id.length > 21 ? 'Android' : info.key.id.substring(0
 const options = { timeZone: 'America/Lima', hour12: false }
 const data = new Date().toLocaleDateString('PE', { ...options, day: '2-digit', month: '2-digit', year: '2-digit' })
 const hora = new Date().toLocaleTimeString('PE', options) 
-const isGroupAdmin = groupAdmins.some(admin => admin.id === info.key.remoteJid);
+//const isGroupAdmin = groupAdmins.some(admin => admin.id === info.key.remoteJid);
 
 
  // CONSTANTES NUEVAS

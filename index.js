@@ -182,6 +182,13 @@ sock.ev.on('messages.upsert', async m => {
 
 sock.ev.on('creds.update', saveCreds)
 sock.ev.on("messages.upsert",  () => { })
+
+
+sock.ev.on('group-participants.update', async (update) => {
+    await sendWelcome(sock, update);
+});
+	
+	
 sock.ev.on('messages.upsert', async m => {
  try {
  const info = m.messages[0]

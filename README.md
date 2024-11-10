@@ -14,7 +14,7 @@
 
 
 bot actualmente en desarrollo 
-
+CREDITOS A @JULS MODDERS
 
 
 

@@ -46,7 +46,7 @@ Clona el repositorio en tu máquina local con el siguiente comando:
 
 Some basic Git commands are:
 ```
-[git status](https://github.com/Theadrianomx/v1-RICK-.git)
+[https://github.com/Theadrianomx/v1-RICK-.git]
 cd THERICK-V1
 npm install
 node index

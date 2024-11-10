@@ -34,14 +34,14 @@ bot actualmente en desarrollo
 
 
 
-Ｔｈｅ Ｒｉｃｋ | ｖ１
+> *Ｔｈｅ Ｒｉｃｋ | ｖ１*
 
 
 
-instalación solo por termux ☃️
+_instalación solo por termux ☃️_
 
 
-1. Clonar el repositorio📌
+*1. Clonar el repositorio📌*
 Clona el repositorio en tu máquina local con el siguiente comando:
 
 Mgit clone https://github.com/Theadrianomx/v1-RICK-.git

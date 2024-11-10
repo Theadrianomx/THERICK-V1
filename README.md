@@ -44,13 +44,13 @@ instalación solo por termux ☃️
 1. Clonar el repositorio📌
 Clona el repositorio en tu máquina local con el siguiente comando:
 
-git clone https://github.com/Theadrianomx/v1-RICK-.git
+Mgit clone https://github.com/Theadrianomx/v1-RICK-.git
 
-cd THERICK-V1
+Mcd THERICK-V1
 
-npm install
+mnpm install
 
-node index
+Mnode index
 
 
 con esto el bot deveria de estar funcionando sin problemas🕥

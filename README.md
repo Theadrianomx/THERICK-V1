@@ -47,6 +47,7 @@ Clona el repositorio en tu máquina local con el siguiente comando:
  ```
 termux-setup-storage
  ```
+```mkdir /storage/emulated/0/thebot```
 ```
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```

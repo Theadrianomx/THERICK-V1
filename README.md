@@ -52,22 +52,12 @@ termux-setup-storage
 git clone https://github.com/Theadrianomx/v1-RICK-.git
 
 ```
-
  ```
 cd v1-RICK-
-
-
 ```
- ```
-yarn install
- ```
-
-
 ```
-npm install
-
+yarn install && npm install
  ```
-
  ```
 node index
  ```

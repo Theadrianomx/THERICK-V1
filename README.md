@@ -47,13 +47,11 @@ Clona el repositorio en tu máquina local con el siguiente comando:
  ```
 termux-setup-storage
  ```
-
+```
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+```
  ``` 
 git clone https://github.com/Theadrianomx/v1-RICK-.git
-
-```
- ```
-cd v1-RICK-
 ```
 ```
 yarn install && npm install
